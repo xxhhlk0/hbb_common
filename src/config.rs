@@ -2924,6 +2924,7 @@ pub mod keys {
     pub const OPTION_ALLOW_ALWAYS_SOFTWARE_RENDER: &str = "allow-always-software-render";
     pub const OPTION_ALLOW_LINUX_HEADLESS: &str = "allow-linux-headless";
     pub const OPTION_ENABLE_HWCODEC: &str = "enable-hwcodec";
+    pub const OPTION_HW_ENCODE_PROFILE: &str = "hw-encode-profile";
     pub const OPTION_APPROVE_MODE: &str = "approve-mode";
     pub const OPTION_VERIFICATION_METHOD: &str = "verification-method";
     pub const OPTION_TEMPORARY_PASSWORD_LENGTH: &str = "temporary-password-length";
@@ -3155,6 +3156,7 @@ pub mod keys {
         OPTION_ALLOW_ALWAYS_SOFTWARE_RENDER,
         OPTION_ALLOW_LINUX_HEADLESS,
         OPTION_ENABLE_HWCODEC,
+        OPTION_HW_ENCODE_PROFILE,
         OPTION_APPROVE_MODE,
         OPTION_VERIFICATION_METHOD,
         OPTION_TEMPORARY_PASSWORD_LENGTH,
